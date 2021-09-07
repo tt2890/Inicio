@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <form name="getData" onSubmit="handleSubmit(event)">
+      <label for="firstName"> Nome: </label>
+      <input type="text" name="firstName" placeholder="João" />
+      <br />
+
+      <label for="lastName"> Sobrenome: </label>
+      <input type="text" name="lastName" placeholder="Silva" />
+
+      <br />
+      <label for="address"> Cidade e Estado: </label>
+      <input type="text" name="address" placeholder="São Paulo/SP" />
+
+      <br />
+      <label for="email"> Email: </label>
+      <input
+        type="email"
+        name="email"
+        placeholder="joao.silva@energybrasilsolar.com.br"
+      />
+
+      <br />
+      <label for="phone1"> Telefone: </label>
+      <input type="text" name="phone1" placeholder="(17)99999-9999" />
+
+      <br />
+      <label for="phone2"> Telefone2: </label>
+      <input type="text" name="phone2" placeholder="(17)99999-9999" />
+
+      <button type="submit">Gerar assinatura</button>
+    </form>
+  </body>
+</html>

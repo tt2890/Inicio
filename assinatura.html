@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onLoad="hydrateSignatureData()">
+    <div id="container">
+      <header>
+        <img src="https://i.ibb.co/s57cx8c/teste.png" alt="Logo" />
+      </header>
+      <main>
+        <div id="personalData">
+          <div id="identity">
+            <p><strong id="fullName"></strong></p>
+            <p id="address"></p>
+          </div>
+          <div id="contact">
+            <p><strong id="email"></strong></p>
+            <div id="phone">
+              <div>
+                <p><strong>Fone:</strong></p>
+              </div>
+              <div>
+                <p id="phone1"></p>
+                <p id="phone2"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="rightContainer">
+          <img
+            src="https://i.ibb.co/HCxHL78/teste2.png"
+            alt=""
+            width="148"
+            height="74"
+          />
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

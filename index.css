@@ -1,0 +1,48 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 150px;
+}
+#container > header > img {
+  width: 100%;
+  height: auto;
+}
+
+#container > main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#personalData {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
+}
+
+#identity {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+#contact > #phone {
+  display: flex;
+}
+
+#rightContainer {
+  margin-top: auto;
+}
+
+p,
+strong {
+  margin: 0;
+  padding: 0;
+}
