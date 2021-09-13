@@ -1,6 +1,4 @@
-* {
-  font-family: "Roboto", sans-serif;
-}
+
 #container {
   display: flex;
   flex-direction: column;
@@ -27,11 +25,15 @@
 #identity {
   display: flex;
   flex-direction: column;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* color: #8d9093; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 #contact {
   display: flex;
   flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 #contact > #phone {
   display: flex;
@@ -45,4 +47,10 @@ p,
 strong {
   margin: 0;
   padding: 0;
+}
+
+#backGround {
+display: flex;
+img src="https://i.ibb.co/s57cx8c/teste.png" ;
+
 }

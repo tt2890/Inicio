@@ -6,37 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="background.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <form name="getData" onSubmit="handleSubmit(event)">
-      <label for="firstName"> Nome: </label>
-      <input type="text" name="firstName" placeholder="João" />
-      <br />
+    <div id="titulo">
+      <center><h1>Gerador de assinaturas Energy Brasil</h1></center>
+    </div>
+    <div id="textoBody">
+      <form name="getData" onSubmit="handleSubmit(event)">
+        <center>
+          <label for="firstName"> Nome: </label>
+          <br />
+          <input type="text" name="firstName" placeholder="João" />
+          <br />
+          
 
-      <label for="lastName"> Sobrenome: </label>
-      <input type="text" name="lastName" placeholder="Silva" />
+          <label for="lastName"> Sobrenome: </label>
+          <br />
+          <input type="text" name="lastName" placeholder="Silva" />
 
-      <br />
-      <label for="address"> Cidade e Estado: </label>
-      <input type="text" name="address" placeholder="São Paulo/SP" />
+          <br />
+          <label for="address"> Cidade e Estado: </label>
+          <br />
+          <input type="text" name="address" placeholder="São Paulo/SP" />
 
-      <br />
-      <label for="email"> Email: </label>
-      <input
-        type="email"
-        name="email"
-        placeholder="joao.silva@energybrasilsolar.com.br"
-      />
+          <br />
+          <label for="email"> Email: </label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            placeholder="joao.silva@energybrasilsolar.com.br"
+          />
 
-      <br />
-      <label for="phone1"> Telefone: </label>
-      <input type="text" name="phone1" placeholder="(17)99999-9999" />
+          <br />
+          <label for="phone1"> Telefone: </label>
+          <br />
+          <input type="text" name="phone1" placeholder="(17)99999-9999" />
 
-      <br />
-      <label for="phone2"> Telefone2: </label>
-      <input type="text" name="phone2" placeholder="(17)99999-9999" />
+          <br />
+          <label for="phone2"> Telefone2: </label>
+          <br />
+          <input type="text" name="phone2" placeholder="(17)99999-9999" />
+        </center>
 
-      <button type="submit">Gerar assinatura</button>
-    </form>
+        <center><button type="submit">Gerar assinatura</button></center>
+      </form>
+    </div>
   </body>
 </html>
